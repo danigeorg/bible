@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Figtree', system-ui, sans-serif;
+  --color-paper: #f7f3ea;
+  --color-card: #fffdf8;
+  --color-ink: #2b2b2a;
+  --color-line: #e6dfcf;
+  --color-moss: #5c7355;
+  --color-gold: #b08d3c;
+}
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
